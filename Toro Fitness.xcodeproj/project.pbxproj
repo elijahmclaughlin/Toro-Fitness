@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88F306062C1A61A00059E569 /* Toro_FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F306052C1A61A00059E569 /* Toro_FitnessApp.swift */; };
+		88F306082C1A61A00059E569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F306072C1A61A00059E569 /* ContentView.swift */; };
+		88F3060A2C1A61A10059E569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F306092C1A61A10059E569 /* Assets.xcassets */; };
+		88F3060E2C1A61A10059E569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F3060D2C1A61A10059E569 /* Preview Assets.xcassets */; };
+		88F306182C1A61A10059E569 /* Toro_FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F306172C1A61A10059E569 /* Toro_FitnessTests.swift */; };
+		88F306222C1A61A10059E569 /* Toro_FitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F306212C1A61A10059E569 /* Toro_FitnessUITests.swift */; };
+		88F306242C1A61A10059E569 /* Toro_FitnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F306232C1A61A10059E569 /* Toro_FitnessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88F306142C1A61A10059E569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F305FA2C1A61A00059E569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F306012C1A61A00059E569;
+			remoteInfo = "Toro Fitness";
+		};
+		88F3061E2C1A61A10059E569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F305FA2C1A61A00059E569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F306012C1A61A00059E569;
+			remoteInfo = "Toro Fitness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88F306022C1A61A00059E569 /* Toro Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toro Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F306052C1A61A00059E569 /* Toro_FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toro_FitnessApp.swift; sourceTree = "<group>"; };
+		88F306072C1A61A00059E569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88F306092C1A61A10059E569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88F3060B2C1A61A10059E569 /* Toro_Fitness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Toro_Fitness.entitlements; sourceTree = "<group>"; };
+		88F3060D2C1A61A10059E569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88F306132C1A61A10059E569 /* Toro FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toro FitnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F306172C1A61A10059E569 /* Toro_FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toro_FitnessTests.swift; sourceTree = "<group>"; };
+		88F3061D2C1A61A10059E569 /* Toro FitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toro FitnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F306212C1A61A10059E569 /* Toro_FitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toro_FitnessUITests.swift; sourceTree = "<group>"; };
+		88F306232C1A61A10059E569 /* Toro_FitnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toro_FitnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F305FF2C1A61A00059E569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F306102C1A61A10059E569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3061A2C1A61A10059E569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F305F92C1A61A00059E569 = {
+			isa = PBXGroup;
+			children = (
+				88F306042C1A61A00059E569 /* Toro Fitness */,
+				88F306162C1A61A10059E569 /* Toro FitnessTests */,
+				88F306202C1A61A10059E569 /* Toro FitnessUITests */,
+				88F306032C1A61A00059E569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F306032C1A61A00059E569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F306022C1A61A00059E569 /* Toro Fitness.app */,
+				88F306132C1A61A10059E569 /* Toro FitnessTests.xctest */,
+				88F3061D2C1A61A10059E569 /* Toro FitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F306042C1A61A00059E569 /* Toro Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				88F306052C1A61A00059E569 /* Toro_FitnessApp.swift */,
+				88F306072C1A61A00059E569 /* ContentView.swift */,
+				88F306092C1A61A10059E569 /* Assets.xcassets */,
+				88F3060B2C1A61A10059E569 /* Toro_Fitness.entitlements */,
+				88F3060C2C1A61A10059E569 /* Preview Content */,
+			);
+			path = "Toro Fitness";
+			sourceTree = "<group>";
+		};
+		88F3060C2C1A61A10059E569 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88F3060D2C1A61A10059E569 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88F306162C1A61A10059E569 /* Toro FitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				88F306172C1A61A10059E569 /* Toro_FitnessTests.swift */,
+			);
+			path = "Toro FitnessTests";
+			sourceTree = "<group>";
+		};
+		88F306202C1A61A10059E569 /* Toro FitnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88F306212C1A61A10059E569 /* Toro_FitnessUITests.swift */,
+				88F306232C1A61A10059E569 /* Toro_FitnessUITestsLaunchTests.swift */,
+			);
+			path = "Toro FitnessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F306012C1A61A00059E569 /* Toro Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F306272C1A61A10059E569 /* Build configuration list for PBXNativeTarget "Toro Fitness" */;
+			buildPhases = (
+				88F305FE2C1A61A00059E569 /* Sources */,
+				88F305FF2C1A61A00059E569 /* Frameworks */,
+				88F306002C1A61A00059E569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toro Fitness";
+			productName = "Toro Fitness";
+			productReference = 88F306022C1A61A00059E569 /* Toro Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88F306122C1A61A10059E569 /* Toro FitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F3062A2C1A61A10059E569 /* Build configuration list for PBXNativeTarget "Toro FitnessTests" */;
+			buildPhases = (
+				88F3060F2C1A61A10059E569 /* Sources */,
+				88F306102C1A61A10059E569 /* Frameworks */,
+				88F306112C1A61A10059E569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F306152C1A61A10059E569 /* PBXTargetDependency */,
+			);
+			name = "Toro FitnessTests";
+			productName = "Toro FitnessTests";
+			productReference = 88F306132C1A61A10059E569 /* Toro FitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88F3061C2C1A61A10059E569 /* Toro FitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F3062D2C1A61A10059E569 /* Build configuration list for PBXNativeTarget "Toro FitnessUITests" */;
+			buildPhases = (
+				88F306192C1A61A10059E569 /* Sources */,
+				88F3061A2C1A61A10059E569 /* Frameworks */,
+				88F3061B2C1A61A10059E569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F3061F2C1A61A10059E569 /* PBXTargetDependency */,
+			);
+			name = "Toro FitnessUITests";
+			productName = "Toro FitnessUITests";
+			productReference = 88F3061D2C1A61A10059E569 /* Toro FitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F305FA2C1A61A00059E569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					88F306012C1A61A00059E569 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					88F306122C1A61A10059E569 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 88F306012C1A61A00059E569;
+					};
+					88F3061C2C1A61A10059E569 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 88F306012C1A61A00059E569;
+					};
+				};
+			};
+			buildConfigurationList = 88F305FD2C1A61A00059E569 /* Build configuration list for PBXProject "Toro Fitness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F305F92C1A61A00059E569;
+			productRefGroup = 88F306032C1A61A00059E569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F306012C1A61A00059E569 /* Toro Fitness */,
+				88F306122C1A61A10059E569 /* Toro FitnessTests */,
+				88F3061C2C1A61A10059E569 /* Toro FitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88F306002C1A61A00059E569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F3060E2C1A61A10059E569 /* Preview Assets.xcassets in Resources */,
+				88F3060A2C1A61A10059E569 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F306112C1A61A10059E569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3061B2C1A61A10059E569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F305FE2C1A61A00059E569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F306082C1A61A00059E569 /* ContentView.swift in Sources */,
+				88F306062C1A61A00059E569 /* Toro_FitnessApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3060F2C1A61A10059E569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F306182C1A61A10059E569 /* Toro_FitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F306192C1A61A10059E569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F306222C1A61A10059E569 /* Toro_FitnessUITests.swift in Sources */,
+				88F306242C1A61A10059E569 /* Toro_FitnessUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88F306152C1A61A10059E569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F306012C1A61A00059E569 /* Toro Fitness */;
+			targetProxy = 88F306142C1A61A10059E569 /* PBXContainerItemProxy */;
+		};
+		88F3061F2C1A61A10059E569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F306012C1A61A00059E569 /* Toro Fitness */;
+			targetProxy = 88F3061E2C1A61A10059E569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88F306252C1A61A10059E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88F306262C1A61A10059E569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		88F306282C1A61A10059E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Toro Fitness/Toro_Fitness.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Toro Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = GYMQX5J83D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emanalytics.Toro-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88F306292C1A61A10059E569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Toro Fitness/Toro_Fitness.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Toro Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = GYMQX5J83D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emanalytics.Toro-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88F3062B2C1A61A10059E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYMQX5J83D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emanalytics.Toro-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toro Fitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Toro Fitness";
+			};
+			name = Debug;
+		};
+		88F3062C2C1A61A10059E569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYMQX5J83D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emanalytics.Toro-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toro Fitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Toro Fitness";
+			};
+			name = Release;
+		};
+		88F3062E2C1A61A10059E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYMQX5J83D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emanalytics.Toro-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toro Fitness";
+			};
+			name = Debug;
+		};
+		88F3062F2C1A61A10059E569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYMQX5J83D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emanalytics.Toro-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toro Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F305FD2C1A61A00059E569 /* Build configuration list for PBXProject "Toro Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F306252C1A61A10059E569 /* Debug */,
+				88F306262C1A61A10059E569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F306272C1A61A10059E569 /* Build configuration list for PBXNativeTarget "Toro Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F306282C1A61A10059E569 /* Debug */,
+				88F306292C1A61A10059E569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F3062A2C1A61A10059E569 /* Build configuration list for PBXNativeTarget "Toro FitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F3062B2C1A61A10059E569 /* Debug */,
+				88F3062C2C1A61A10059E569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F3062D2C1A61A10059E569 /* Build configuration list for PBXNativeTarget "Toro FitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F3062E2C1A61A10059E569 /* Debug */,
+				88F3062F2C1A61A10059E569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88F305FA2C1A61A00059E569 /* Project object */;
+}
