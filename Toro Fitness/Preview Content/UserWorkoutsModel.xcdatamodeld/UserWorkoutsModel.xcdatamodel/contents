@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23E224" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="StoreUserExerciseData" representedClassName="StoreUserExerciseData" syncable="YES" codeGenerationType="class">
+        <attribute name="exerciseID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="exerciseTitle" optional="YES" attributeType="String"/>
+        <relationship name="relationshipSet" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StoreUserSetData" inverseName="relationshipExercise" inverseEntity="StoreUserSetData"/>
+        <relationship name="relationshipWorkout" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StoreUserWorkoutData" inverseName="relationshipExercise" inverseEntity="StoreUserWorkoutData"/>
+    </entity>
+    <entity name="StoreUserSetData" representedClassName="StoreUserSetData" syncable="YES" codeGenerationType="class">
+        <attribute name="setID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="setNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="setReps" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="setWeight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="relationshipExercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StoreUserExerciseData" inverseName="relationshipSet" inverseEntity="StoreUserExerciseData"/>
+    </entity>
+    <entity name="StoreUserWorkoutData" representedClassName="StoreUserWorkoutData" syncable="YES" codeGenerationType="class">
+        <attribute name="workoutID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workoutImage" optional="YES" attributeType="String"/>
+        <attribute name="workoutTitle" optional="YES" attributeType="String"/>
+        <attribute name="workoutType" optional="YES" attributeType="String"/>
+        <relationship name="relationshipExercise" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StoreUserExerciseData" inverseName="relationshipWorkout" inverseEntity="StoreUserExerciseData"/>
+    </entity>
+</model>
