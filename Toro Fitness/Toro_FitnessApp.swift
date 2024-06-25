@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct Toro_FitnessApp: App {
+    let persistenceController = PersistenceController.shared
+    
+    @StateObject var manager = HealthManager()
+    @StateObject var weightManager = WorkoutManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToroTabView()
+                .environmentObject(manager)
+                .environmentObject(weightManager)
         }
     }
 }
